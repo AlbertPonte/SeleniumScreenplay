@@ -13,7 +13,7 @@ import task.loginTask;
 public class loginSD {
 
     @Before
-    public void setTheStage(){
+    public void setTheStage() {
         OnStage.setTheStage(new OnlineCast());
     }
 
@@ -24,7 +24,7 @@ public class loginSD {
 
     @Given("^se ha logueado con el (.*) y (.*)$")
     public void seHaLogueadoConElStandardUserYsecretSauce(String usuario, String contrasena) {
-        theActorInTheSpotlight().wasAbleTo(loginTask.iniciarSesion(usuario,contrasena));
+        theActorInTheSpotlight().wasAbleTo(loginTask.iniciarSesion(usuario, contrasena));
     }
 
 }
