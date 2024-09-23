@@ -37,4 +37,6 @@ dependencies {
     implementation ("net.serenity-bdd:serenity-screenplay-webdriver:4.2.1")
     implementation("net.serenity-bdd:serenity-reports:4.2.1")
     implementation("org.seleniumhq.selenium:selenium-server:3.141.59")
+    implementation("org.seleniumhq.selenium:selenium-chrome-driver:4.25.0")
+    implementation("org.seleniumhq.selenium:selenium-remote-driver:4.25.0")
 }

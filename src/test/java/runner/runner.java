@@ -5,7 +5,6 @@ import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.annotations.ClearCookiesPolicy;
 import net.serenitybdd.annotations.Managed;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
-
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
