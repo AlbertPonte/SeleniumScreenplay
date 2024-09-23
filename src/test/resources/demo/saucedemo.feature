@@ -1,5 +1,5 @@
 Feature: flujo de compras
-
+@Login
   Scenario Outline: comprar producto ingresando a la imagen
 
     Given que el cliente ha accedido a la web Swablab
