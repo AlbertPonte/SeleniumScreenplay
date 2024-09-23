@@ -2,9 +2,10 @@ Feature: flujo de compras
 
   Background:
     Given que el cliente ha accedido a la web Swablab
-    And se ha logueado con el <usuario> y <contrasena>
-@Login
+
+    @Login
   Scenario Outline: comprar producto ingresando a la imagen
+    And se ha logueado con el <usuario> y <contrasena>
     When selecciona imagen del producto
     And Agrega el producto
     And selecciona el carrito de compras
