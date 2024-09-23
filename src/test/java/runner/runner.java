@@ -14,7 +14,7 @@ import org.openqa.selenium.WebDriver;
 @CucumberOptions(
         features ="src/test/resources/demo/",
         glue = "stepDefinitions",
-        tags = "",
+        tags = "@Login",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 
