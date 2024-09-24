@@ -16,10 +16,7 @@ import org.openqa.selenium.WebDriver;
         tags = "@Login",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-
-
 public class runner {
-
     @Managed(uniqueSession = true, clearCookies = ClearCookiesPolicy.BeforeEachTest)
       WebDriver driver;
 }
