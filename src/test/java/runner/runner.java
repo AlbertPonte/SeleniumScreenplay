@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 @CucumberOptions(
         features ="src/test/resources/demo/",
         glue = "stepDefinitions",
-        tags = "@Login",
+        tags = "",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class runner {
