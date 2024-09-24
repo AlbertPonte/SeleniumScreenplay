@@ -26,4 +26,6 @@ dependencies {
     implementation("org.seleniumhq.selenium:selenium-server:3.141.59")
     implementation("org.seleniumhq.selenium:selenium-chrome-driver:4.25.0")
     implementation("org.seleniumhq.selenium:selenium-remote-driver:4.25.0")
+    implementation("name.remal:gradle-plugins:1.9.2")
+
 }
