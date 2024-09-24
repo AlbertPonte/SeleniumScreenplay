@@ -28,11 +28,9 @@ dependencies {
     implementation("org.seleniumhq.selenium:selenium-remote-driver:4.25.0")
     implementation("org.seleniumhq.selenium:selenium-java:4.25.0")
     implementation("name.remal:gradle-plugins:1.9.2")
-    testImplementation("org.slf4j:slf4j-simple:2.0.16")
-    testImplementation("org.slf4j:slf4j-reload4j:2.0.16")
     compileOnly("org.slf4j:nlog4j:1.2.25")
     testImplementation("org.slf4j:slf4j-jdk14:2.0.16")
-    testImplementation("org.slf4j:slf4j-nop:2.0.16")
+
 
 
 }

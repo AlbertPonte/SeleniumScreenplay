@@ -1,6 +1,5 @@
 package runner;
 
-
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.annotations.ClearCookiesPolicy;
 import net.serenitybdd.annotations.Managed;
