@@ -1,26 +1,13 @@
 buildscript {
-    //ext.serenityCoreVersion = '3.3.0'
-    //ext.serenityCoreVersion = '4.0.0-beta2'
+
     repositories {
         mavenCentral()
     }
-    dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:3.4.2")
-    }
 }
-
 plugins {
-
     id ("java")
-    id ("eclipse")
     id ("idea")
 }
-
-defaultTasks "clean" "test" "aggregate"
-
-group "per.ati.kallpa.software"
-version "1.0-SNAPSHOT"
-
 
 repositories {
     mavenCentral()
