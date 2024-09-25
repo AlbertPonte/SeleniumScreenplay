@@ -31,6 +31,4 @@ dependencies {
     compileOnly("org.slf4j:nlog4j:1.2.25")
     testImplementation("org.slf4j:slf4j-jdk14:2.0.16")
 
-
-
 }
